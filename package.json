@@ -1,0 +1,17 @@
+{
+  "name": "github-dep-bot",
+  "description": "Fork, update deps, and create PRs",
+  "version": "0.1.0",
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me) | Fractal (http://wearefractal.com)",
+  "main": "./index.js",
+  "dependencies": {
+    "async": "^1.2.0",
+    "github-api": "^0.10.6"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github-deps",
+    "bot",
+    "automate"
+  ]
+}
