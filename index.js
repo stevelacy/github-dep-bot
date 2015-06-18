@@ -101,7 +101,9 @@ Bot.prototype.automate = function(cb) {
   var self = this;
 
   self.fork(function(err, output) {
-    if (err) return cb(err);
+    if (err) {
+      return cb(err);
+    }
 
     async.series([
       function(cb) {

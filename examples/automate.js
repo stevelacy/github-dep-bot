@@ -1,3 +1,5 @@
+'use strict';
+
 var Bot = require('../');
 
 var bot = new Bot({
@@ -11,7 +13,7 @@ var bot = new Bot({
 });
 
 
-bot.automate(function(err, data) {
+bot.automate(function(err) {
   if (err) {
     console.log(err);
   }
